@@ -7,8 +7,9 @@ android {
         applicationId "cn.carbswang.android.numberpickerview"
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode 4
-        versionName "1.3.0"
+        versionCode 5
+        versionName "1.3.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -26,4 +27,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
     implementation 'androidx.appcompat:appcompat:1.0.2'
+    androidTestImplementation 'junit:junit:4.12'
 }
